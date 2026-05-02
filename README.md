@@ -1,3 +1,5 @@
+# 📊 Sales Performance Dashboard
+
 ## 📌 Overview
 This project presents a comprehensive **Sales Performance Dashboard** built using Power BI to analyze business operations across products, customers, and geographical regions.
 
@@ -6,6 +8,9 @@ The project focuses on transforming raw sales data into meaningful insights thro
 ---
 
 ## 🧱 Data Modeling
+
+![Data Model](images/data-model.png)
+
 A well-structured data model was designed using a **star schema approach**, including:
 
 - Fact Tables:
@@ -34,19 +39,16 @@ Relationships were carefully created to ensure accurate aggregation and filterin
 
 ---
 
-## 📊 Dashboard Features
+## 📊 Dashboard Overview
 
-### 🔹 KPI Overview
-The dashboard includes key business metrics:
-- Total Profit  
-- Quantity Sold  
-- Quantity Returned  
-- Total Orders  
-- Active Customers  
+![Dashboard Overview](images/dashboard-overview.png)
 
 ---
 
-### 🔹 Time Analysis
+## 📈 Time Analysis
+
+![Sales Trend](images/sales-trend.png)
+
 - Quantity sold trends across:
   - Year  
   - Quarter  
@@ -56,7 +58,10 @@ The dashboard includes key business metrics:
 
 ---
 
-### 🔹 Product Analysis
+## 🛍️ Product Analysis
+
+![Product Analysis](images/product-analysis.png)
+
 - Top 3 subcategories by quantity sold  
 - Bottom-performing products  
 - Sales distribution across product categories  
@@ -64,26 +69,27 @@ The dashboard includes key business metrics:
 
 ---
 
-### 🔹 Customer & Segment Analysis
-- Active customer tracking  
-- Sales distribution by customer segments  
-- Insights into customer behavior and contribution  
+## 📋 Sales Details
+
+![Sales Details](images/sales-details.png)
+
+- Detailed breakdown of:
+  - Revenue  
+  - Cost  
+  - Profit  
+  - Quantity Sold & Returned  
 
 ---
 
-### 🔹 Geographic Analysis
+## 🌍 Geographic Analysis
+
+![Geographic Analysis](images/geographic-analysis.png)
+
 - Sales performance across:
   - Continent  
   - Country  
   - Region  
 - Interactive map visualization showing global sales distribution  
-
----
-
-### 🔹 Returns & Profitability
-- Analysis of returned quantities  
-- Profit vs cost breakdown  
-- Identifying high-return or low-profit products  
 
 ---
 
